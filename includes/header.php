@@ -16,12 +16,13 @@
 </ul>
 <?php
 //randomize the array of 6 banners
-$banner = array("rhinesWedding.jpg", 
-				"siblings.jpg",
-				"vacationBibleSchool.jpg",
-				"childrensChoir.jpg",
-				"lunchBunch.jpg",
-				"fpTaskforce.jpg");
+$banner = array("rhines-wedding.jpg", 
+				"west-granville-bell-choir.jpg",
+				"west-granville-benton-harbor.jpg",
+				"west-granville-boy-scouts.jpg",
+				"west-granville-cookout.jpg",
+				"west-granville-kids.jpg",
+				"west-granville-golf-outing.jpg");
 
 //assign random banner to variable "$rand_banner"
 $rand_banner = array_rand($banner, 6);

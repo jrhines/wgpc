@@ -7,8 +7,8 @@ $url = $_SERVER['SERVER_NAME'];
 //echo $url
 
 switch ($url) {
-	case "localhost":
-		$link = "http://localhost/wgpc/";
+	case "wgpc:8080":
+		$link = "http://wgpc:8080/";
 	break;
 	
 	default:
