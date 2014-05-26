@@ -1,0 +1,104 @@
+* { font-family: arial, verdana, microsoft sans serif; font-size: 100%; color:#000000; margin: 0px; }
+
+body {
+	font-size: 70%;
+	text-decoration: none;
+	margin: 0px;
+	background-color: #FFFFFF;
+} 
+
+a { color:#993300; text-decoration:underline }
+a:active { color:#993300; text-decoration:underline }
+a:visited { color:#993300; text-decoration:underline }
+a:hover { color:#CC3300; text-decoration:underline }
+
+h1, h2, #footerContainer dl dt { 
+	font: normal 160% georgia, times, times new roman;
+}
+
+h3 { 
+	font: normal 240% georgia, times, times new roman;
+}
+
+h4 { 
+	font: normal 150% georgia, times, times new roman;
+}
+
+h5 { 
+	font: normal 120% georgia, times, times new roman;
+}
+
+p, ul {
+	text-indent: 0px; 
+	text-align: left; 
+	margin: 0px 0px 10px 0px; 
+	line-height: 140%;
+}
+
+.creditLine {
+	font-size: 90%;
+	font-style: italic;
+	margin: 0px 0px 10px 0px;
+}
+
+.error {
+	color:#993300;
+}
+
+.highlightField dl dt, .highlightField dl dd, .highlightField dl dd b, .highlightField dl dd p, .highlightField dl dd ul li, .worshipDate, .worshipMonth { 
+	color: #8B7C6B;
+}
+
+.highlightField dl dt { 
+	font: normal 160% georgia, times, times new roman;
+	margin: 0px 0px 5px 0px;
+}
+
+.highlightField dl dd { 
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 10px 0px;
+	clear: both;
+	overflow: hidden;
+	border-bottom: solid 1px #8B7C6B;
+}
+
+.worshipDateContainer { 
+	position: relative;
+	text-align: center; 
+	width: 30px; 
+	margin: 0px 10px 0px 0px; 
+	float: left; 
+	top: -5px;
+}
+
+.worshipDate { 
+	font: normal 220% georgia, times, times new roman; 
+	display: block;
+}
+
+.worshipMonth { 
+	font-size: 115%; 
+	line-height: 80%; 
+	text-transform: uppercase;
+}
+
+.worshipDateDetails { 
+	float: left; 
+	width: 170px;
+}
+
+#secondColumn h2, #secondColumn h3, #secondColumn h4, #secondColumn h5, #secondColumn ul li, #secondColumn b, #secondColumn p, #secondColumn td {
+	color: #8B7C6B;
+}
+
+#secondColumn h2 {
+	margin: 0px 0px 10px 0px;
+}
+
+#secondColumn ul {
+	margin: 0px 0px 10px 0px;
+}
+
+#footerContainer dl dd  { 
+	line-height: 200%;
+}

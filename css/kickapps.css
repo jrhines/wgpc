@@ -1,0 +1,207 @@
+body {
+	font-size: 100%;
+} 
+
+/* MAIN */
+#ka_mainContainer {margin:0 auto;padding:0;width:730px;background:transparent;color:#323232;font:84%/140% normal;text-align:left !important}
+#ka_header {margin:0 auto 6px;padding:0;height:105px}
+#ka_contentContainer {margin:0 auto;padding:0;width:730px}
+#ka_leftColumn {float:left;margin:0;padding:0;width:420px}
+#ka_rightColumn {float:right;padding:0;width:300px}
+#ka_footer {margin:40px auto 15px;padding:8px 0;width:100%;clear:both}
+
+/* MAIN NAVIGATION */
+#ka_header ul,#ka_header li {margin:0 0 0 5px;padding:0}
+#ka_header ul {float:left;clear:both}
+#ka_header li {display:inline}
+#ka_header li a {position:relative;display:block;float:left;left:5px;margin-right:6px;padding:5px 8px;text-decoration:none !important}
+#ka_headerTopNav {float:left;padding:3px 0 0;width:100%;background:#D0C7BD}
+#ka_headerTopNav li.current a,#ka_headerTopNav li a:hover {background:#D0C7BD url("http://www.westgranville.org/images/kickapps/navgradient.gif") repeat-x;color:#CC3300}
+#ka_headerSubNav {float:left;width:100%;height:30px;background:#F6F4F2;}
+#ka_headerSubNav ul {width:98%}
+#ka_headerSubNav li.current a,#ka_headerSubNav li a:hover {margin-top:1px;background:transparent url("http://www.westgranville.org/images/kickapps/subarrow.gif") no-repeat 50% 100%;color:#CC3300}
+#ka_headerSubNav li.ka_addMedia {float:right}
+#ka_headerSubNav li.ka_addMedia_photo {font-weight:bold;float:right;padding-left:10px;background:transparent url(/kickapps/images/photoup.gif) no-repeat scroll 0px 5px;}
+#ka_headerSubNav li.ka_addMedia_blog {font-weight:bold;float:right;padding-left:10px;background:transparent url(/kickapps/images/blogup.gif) no-repeat scroll 0px 5px;}
+#ka_headerSubNav li.ka_addMedia_video {font-weight:bold;float:right;padding-left:10px;background:transparent url(/kickapps/images/vidup.gif) no-repeat scroll 0px 5px;}
+#ka_headerSubNav li.ka_addMedia_audio {font-weight:bold;float:right;padding-left:10px;background:transparent url(/kickapps/images/audup.gif) no-repeat scroll 0px 5px;}
+#ka_headerBtmNav {position:relative;float:left;margin:0;padding:0;width:100%;min-height:40px;height:auto !important;height:40px}
+#ka_headerLogin {position:absolute;top:5px;left:0;padding:0;width:410px}
+#ka_headerLogin ul,#ka_headerLogin li {margin:0 4px 0 0;padding:0}
+#ka_headerLogin li {display:inline}
+#ka_headerLogin li a {position:relative;display:block;float:left;left:5px;margin-right:6px;padding:5px 8px;text-decoration:none}
+#ka_headerSearch {position:absolute;top:3px;right:0;padding:0;width:298px}
+#ka_headerSearch input.ka_searchField {float:right;margin:0;padding:2px;width:200px}
+#ka_searchText {float:right;margin:0;padding:0}
+#ka_searchAdv1 {position:absolute;top:25px;left:0;padding:0;width:298px}
+#ka_searchAdv1 ul {margin:0;padding:0;width:298px;text-align:left;font-size:.68em}
+#ka_searchAdv1 li {float:left !important;display:inline;margin:0 3px 0 0;padding:0}
+#ka_searchAdv1 input {margin:0 !important}
+.ka_searchButton {float:right;background:transparent url(/kickapps/images/searchicon.png) no-repeat 0 0;border:0pt none;cursor:pointer;height:24px;width:24px;overflow:hidden;margin:0 3px 0 5px;padding:0;text-indent:-5000px}
+#ka_headerLogin ul {display:inline}
+#ka_headerLogin li {float:left !important;margin-top:2px;line-height:95%}
+#ka_headerLogin li a {padding:0;text-decoration:underline !important}
+#ka_headerLogin li.ka_join_auth,#ka_headerLogin li.ka_login_auth,#ka_headerLogin li.ka_username_auth,#ka_headerLogin li.ka_profile_auth,#ka_headerLogin li.ka_manage_auth {border-right: 1px solid #000;padding-right:5px}
+#ka_login_area li.ka_manage_auth a {color:green !important;font-weight:bold}
+
+/* TYPOGRAPHY */
+#ka_mainContainer h1, #ka_mainContainer h2, #ka_mainContainer h3, #ka_mainContainer h4 {font:1em normal;color:#444}
+#ka_mainContainer h1 {font-size:1.5em}
+#ka_mainContainer h2 {font-size:1.4em;margin-bottom:.5em;font-weight:bold}
+#ka_mainContainer h3 {font-size:1.3em;border-bottom:1px dotted #D0C7BD;text-transform:capitalize}
+#ka_mainContainer h4 {font-size:1em}
+#ka_mainContainer p {margin:0 .5em 1em}
+#ka_contentContainer h2 {text-transform:capitalize}
+h3.ka_comments {padding-left:24px;background:transparent url("/kickapps/images/comments.gif") no-repeat 0 2px;border:none !important}
+.ka_uploadEnlarge {font-weight:bold;font-size:110%}
+
+/* GENERAL */
+fieldset {border:1px solid #D0C7BD;margin:0 auto 20px;padding:1.2em;font-size:.96em}
+legend {margin:0;padding:0.5em;color:#59a3d3;text-transform:uppercase;font-size:.94em}
+label {display:block;margin:0 0 6px;padding:0;color:#369}
+label.ka_inlineLabel {display:inline}
+.clearfix:after {content:".";display: block;height:0;clear:both;visibility:hidden}
+.clearfix {display:inline-block}
+/* Hides from IE-mac \*/
+* html .clearfix {height:1%}
+.clearfix {display:block}
+/* End hide from IE-mac */
+#ka_mainContainer li {list-style:none}
+.ka_Truncate {width:100px;height:15px;overflow:hidden}
+.ka_Small {font-size:.82em}
+.ka_loginRight {float:right;margin:0;padding:0;width:360px}
+.ka_displayNone {display:none}
+
+/* LINKS */
+#ka_mainContainer a,#ka_mainContainer a:link,#ka_mainContainer a:focus {text-decoration:underline;outline:none;cursor:pointer}
+#ka_mainContainer a:hover {text-decoration:none;outline:none;cursor:pointer}
+#ka_mainContainer a:link {color:#993300}
+#ka_mainContainer a:visited {color:#993300}
+#ka_mainContainer a:hover,#ka_mainContainer a:active {color:#CC3300}
+#ka_mainContainer a.ka_smLink {font-size:.82em}
+#ka_mainContainer a.ka_smLink:hover {font-size:.82em}
+
+/* INPUTS */
+#ka_mainContainer input,#ka_mainContainer textarea {margin:0 0 1.4em;padding:5px;background:#fff;border:1px solid #D0C7BD;color:#161616;font:13px normal}
+#ka_mainContainer input:focus,#ka_mainContainer input:hover,#ka_mainContainer textarea:focus,#ka_mainContainer textarea:hover {background:#f6f4f2;border:1px solid #aaa}
+#ka_mainContainer input.ka_submit {width:54px;height:20px;margin:0;padding:0;background:#e5e5dd url("/kickapps/images/submit.gif") top left no-repeat;border:none}
+#ka_mainContainer input.ka_submit:hover {background:#c9c9c2 url("/kickapps/images/submit.gif") no-repeat 0 -20px}
+#ka_mainContainer input.ka_inputTiny {margin:0;padding:2px;font:10px normal arial, sans-serif}
+#ka_mainContainer input.ka_inputTiny:focus {border:1px solid #aaa}
+#ka_mainContainer input.ka_button {margin:0;padding:2px 4px;background:#fff url("/kickapps/images/ka_buttonbghover.gif") repeat-x 0 100%}
+#ka_mainContainer input.ka_button:hover {margin:0;padding:2px 4px;background:#fff url("/kickapps/images/ka_buttonbg.gif") repeat-x 0 0}
+#ka_mainContainer textarea.ka_setWidth {width:95%}
+
+/* ALERT, ERROR, HELPTEXT */
+.ka_Help,.ka_Alert,.ka_Error,.ka_Success {margin:10px auto;padding:2px 3px 2px 28px;min-height:16px;height:auto !important;height:16px}
+.ka_Help {background:#f5f5f5;margin:6px 0;padding:2px 8px;color:#000;font-size:.88em}
+.ka_Alert {background:#e9fbfb url(/kickapps/images/membermessage/exclaim.gif) no-repeat 5px 3px;margin-bottom:20px;border:1px solid #a5e1ed;color:#4185CC}
+.ka_Success {background:#e2f9e3 url(/kickapps/images/membermessage/checkmark.gif) no-repeat 5px 3px;border:1px solid #99cc99;color:#006600}
+.ka_Error {padding:2px 0;margin:0;background:transparent;color:#cf0211}
+
+/* ADS */
+#ka_adFullBanner {margin:0 auto 12px;padding:0;width:728px}
+#ka_adMediumRectangle {margin:0 0 10px;padding:0;width:300px;height:250px;overflow:hidden}
+#ka_adLeftSkyscraper {margin:0 10px 0 0;padding:0;width:120px;height:600px;overflow:hidden}
+#ka_adRightSkyscraper {float:right;margin:33px 0 40px;padding:0;width:120px;height:600px;overflow:hidden}
+#ka_adRightSkyscraperWide {float:right;margin:33px 0 40px;padding:0;width:160px;height:600px;overflow:hidden}
+.ka_adWide {width:905px !important}
+.ka_adWideContent {margin:0 !important}
+.ka_adWideTop {margin:0 !important}
+
+/* COMMENTS */
+.ka_addComment {margin-bottom:12px;padding-left:24px;min-height:20px;height:auto !important;height:20px;background:transparent url("/kickapps/images/add-small.gif") no-repeat 0 -2px}
+.ka_inputComment {margin-top:10px;width:418px}
+#ka_playPageComments {margin:0;padding:0;width:418px;min-height:100px;height:auto !important;height:100px}
+#ka_commentList {margin:0;padding:0;width:418px}
+#ka_commentList li {margin:0;padding:0}
+.ka_bubble {width:auto;margin-bottom:24px}
+.ka_bubble blockquote {margin:0;padding:8px 0;min-height:28px;height:auto !important;height:28px;border:1px solid #c9c2c1}
+.ka_bubbleComment {margin:-4px 8px 0 41px;padding:0}
+.ka_bubble cite {position:relative;margin:0;padding:7px 0 0 15px;top:4px;background:transparent url("/kickapps/images/tip.gif") no-repeat 20px 0;font-style:normal}
+.ka_bubbleLong {width:600px !important}
+
+/* PAGINATION */
+.pagination {font-size:.82em;padding:0.5em;margin:0.2em 0em; float:right}
+.pagination a,.pagination span {float:left;display: block;margin-right:0.1em;padding:0.1em 0.5em;border:1px solid #fff;background:#fff}
+.pagination span.status {font-weight:bold;color:#fff;border:1px solid #369;background:#369}
+.pagination a {text-decoration:none !important;border:1px solid #369}
+.pagination a:hover {border-color:#2e6ab1}
+.pagination a.nextprev {font-weight:bold}
+.pagination span.nextprev {color:#666}
+.pagination span.nextprev {border:1px solid #ddd;color:#999}
+
+/* STAR RATING */
+.ka_starSystemL {margin:0;padding:0;min-height:20px;height:auto !important;height:20px}
+.ka_starSystemL li {display:inline;margin:0;padding-bottom:6px !important;width:23px;height:27px; min-height: none !important}
+.ka_starL {background:transparent url(/kickapps/images/stars/star-big-b.gif) no-repeat}
+.ka_starHighlightL {background:transparent url(/kickapps/images/stars/star-big-a.gif) no-repeat}
+.ka_starSelectedL {background:transparent url(/kickapps/images/stars/star-big-c.gif) no-repeat}
+.ka_starSystemL li a {padding:0 9px; text-decoration:none !important}
+.ka_starsNumRatingsL {font-size:.75em}
+.ka_starSystemS {margin:0px;padding:0px }
+li.ka_listRating { height:18px; }/* KA-3850 */
+.ka_starSystemS li {display:inline;margin:0;height:12px !important;width:9px !important; min-height: none !important;float:left}
+.ka_starS {background:transparent url(/kickapps/images/stars/star-small-c.gif) no-repeat 0px 0px !important}
+.ka_starHighlightS {background:transparent url(/kickapps/images/stars/star-small-a.gif) no-repeat 0px 0px !important}
+.ka_starSelectedS {background:transparent url(/kickapps/images/stars/star-small-b.gif) no-repeat 0px 0px !important}
+.ka_starSystemS li a {padding:4px;text-decoration:none}
+.ka_starSystemS li a:hover {background-color:transparent !important}
+.ka_starsNumRatingsS {font-size:11px;display:none}
+
+/* LIST ELEMENTS */
+.ka_listingType,.ka_listingFrom,.ka_listingDate,.ka_listingViews,.ka_listingMemberSince,.ka_listingRating,.ka_listingCreated,.ka_listingMembers,.ka_listingMedia,.ka_listingAddComment,.ka_listingStatus,.ka_listingAdded,.ka_listingEditDelete,.ka_listingSend,.ka_listingViewRemove,.ka_listingBlogType {display:block}
+
+/* ICONS */
+.ka_gen_upvid {margin:0 0 12px;padding-left:24px;height:18px;background:transparent url("/kickapps/images/vidup.gif") no-repeat 0 0}
+.ka_gen_upaud {margin:0 0 12px;padding-left:24px;height:18px;background:transparent url("/kickapps/images/audup.gif") no-repeat 0 0}
+.ka_gen_upphoto {margin:0 0 12px;padding-left:24px;height:18px;background:transparent url("/kickapps/images/photoup.gif") no-repeat 0 0}
+.ka_gen_upblog {margin:0 0 12px;padding-left:24px;height:18px;background:transparent url("/kickapps/images/blogup.gif") no-repeat 0 0}
+.ka_gen_link {margin:0 0 12px;padding-left:24px;height:18px;background:transparent url("/kickapps/images/link_add.gif") no-repeat 0 0}
+.ka_gen_group {margin:0 0 12px;padding-left:24px;height:18px;background:transparent url("/kickapps/images/group_add.gif") no-repeat 0 0}
+.ka_gen_rss {margin:0 0 12px;padding-left:24px;height:18px;background:transparent url("/kickapps/images/rss_add.gif") no-repeat 0 0}
+.ka_gen_friend {margin:0 0 12px;padding-left:24px;height:18px;background:transparent url("/kickapps/images/myHome/group.png") no-repeat 0 0}
+
+/* LETTER BOX IMAGES */
+.ka_searchLetterBox {margin:5px 5px 3px;padding:0;width:136px;height:102px;display:block}
+.ka_letterboxComment {float:left;margin:0 5px -8px 5px;padding:0;width:24px;height:24px;border:1px solid #D0C7BD;display:block}
+.ka_letterboxSlideShow {float:left;margin:1px 5px 0 0;padding:0;width:48px;height:48px;border:1px solid #D0C7BD;display:block}
+#ka_letterboxUser {float:left;margin:5px 5px -8px 5px;padding:0;width:48px;height:48px;border:1px solid #D0C7BD;display:block}
+#ka_letterboxUserList {margin:5px 5px 3px;padding:0;width:136px;height:102px;display:block}
+#ka_letterboxRelated {float:left;margin:1px 5px 0 0;padding:0;width:100px;height:75px;border:1px solid #D0C7BD;display:block}
+#ka_moduleLetterBox {margin:0;padding:0;width:85px;height:65px;background:transparent}
+#ka_letterboxPhotoEnlarge {display:block;float:left;height:550px;margin:1px 5px 10pt 0pt;padding:0pt;width:730px;border:1px solid #D0C7BD}
+#ka_letterboxPhotoPage {display:block;float:left;height:315px;margin:0;padding:0;width:420px;}
+
+/* LETTERBOX SIZES */
+.ka_letterBox_240x320,.ka_letterBox_120x160,.ka_letterBox_75x100,.ka_letterBox_60x80,.ka_letterBox_45x60,.ka_letterBox_48x48 {background-color:#000;background-position:center;background-repeat:no-repeat;border:1px solid #D0C7BD;display:block}
+a.ka_letterBox_240x320,a.ka_letterBox_240x320:visited,a.ka_letterBox_240x320:hover,a.ka_letterBox_240x320:active,a.ka_letterBox_120x160,a.ka_letterBox_120x160:visited,a.ka_letterBox_120x160:hover,a.ka_letterBox_120x160:active,a.ka_letterBox_75x100,a.ka_letterBox_75x100:visited,a.ka_letterBox_75x100:hover,a.ka_letterBox_75x100:active,a.ka_letterBox_60x80,a.ka_letterBox_60x80:visited,a.ka_letterBox_60x80:hover,a.ka_letterBox_60x80:active,a.ka_letterBox_45x60,a.ka_letterBox_45x60:visited,a.ka_letterBox_45x60:hover,a.ka_letterBox_45x60:active,a.ka_letterBox_48x48,a.ka_letterBox_48x48:visited,a.ka_letterBox_48x48:hover,a.ka_letterBox_48x48:active,a.ka_colorpicker:hover,a.ka_colorpicker:active {background:transparent;border:none !important}
+.ka_letterBox_240x320 img,.ka_letterBox_120x160 img,.ka_letterBox_75x100 img,.ka_letterBox_60x80 img,.ka_letterBox_45x60 img,.ka_letterBox_48x48 img {display:none}
+.ka_letterBox_240x320 {height:240px;width:320px}
+.ka_letterBox_120x160 {height:120px;width:160px}
+.ka_letterBox_75x100 {height:75px;width:100px}
+.ka_letterBox_60x80 {height:60px;width:80px}
+.ka_letterBox_45x60 {height:45px;width:60px}
+.ka_letterBox_48x48 {height:48px;width:48px;margin-left:5px}
+
+/* POPUP:OLD CODE */
+#ka_TOSDiv {background:#fff;padding:1em;height:480px}
+#ka_termsOfService {border:1px solid #D0C7BD;margin:0;padding:0;overflow:scroll}
+.ka_popUpDiv {background:#fff;border:1px solid #999;position:absolute;top:0;left:0;display:none;z-index:900}
+.ka_popUpDiv {width:600px;height:400px;padding:1em}
+.ka_popUpInnerDiv {width:600px;height:400px;padding:0.1em;z-index:1000}
+.ka_popUpSingleDiv {background-color:#fff;border:1px solid #000;padding:1em;position:absolute;top:0;left:0;visibility:hidden;z-index:1}
+
+/* THE ORDER MATTERS HERE: LEAVE AS IS */
+#ka_TOSdiv p {margin-right:0}
+#ka_TOSdiv p input {float:right;margin:10px 0 10px 10px !important}
+
+/* TAG CLOUD */
+div.ka_tagCloud {margin:0;padding:8px;font-family:Tahoma;font-weight:900;text-align:center;line-height:22px}
+a.ka_tag {text-decoration:none !important}
+a.ka_tag1 {font-size:.8em; font-weight: 900;}
+a.ka_tag2 {font-size:.95em; font-weight: 900; font-style: italic; }
+a.ka_tag3 {font-size:1.1em; font-weight: 900;}
+a.ka_tag4 {font-size:1.25em}
+a.ka_tag5 {font-size:1.4em}
+a.ka_tag6 {font-size:1.55em}

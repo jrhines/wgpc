@@ -1,0 +1,325 @@
+/* 	Property Adjustment Key: top, right, bottom, left */
+
+/*Start Site Container Styles*/
+
+#homeHeaderContainer {
+	background: #FFFFFF url(../images/homeheaderImages/homeImageTile.gif) repeat-x top left;
+	overflow: hidden;
+}
+
+#headerContainer {
+	background: #FFFFFF url(../images/headerImages/55ImageTile.gif) repeat-x top left;
+	overflow: hidden;
+}
+
+#siteContainer {
+	overflow: hidden;
+	margin: 15px 15px 10px 15px;
+	width: 964px;
+	clear: both;
+}
+
+#primeColumnFull, #primeColumn3Quarters, #primeColumn {
+	float: left; 
+	margin: 0px 15px 15px 0px;
+}
+
+#primeColumn3Quarters {
+	width: 75%; 
+}
+
+#primeColumn {
+	width: 45%; 
+}
+
+.labelGeneral, .labelCheckbox {
+	display: block;
+	margin: 10px 0px 0px 0px; 
+}
+
+.labelCheckbox {
+	margin: 0px 0px 0px 0px;
+	*margin: 3px 0px 0px 0px;
+	float: left;
+}
+
+.inputGeneral {
+	width: 160px;
+}
+
+.submitBtn {
+	float: right;
+	margin: 0px 0px 0px 10px;
+}
+
+.checkbox {
+	float: left;
+	margin: 0px 5px 0px 0px;
+}
+
+fieldset {
+	border: none;
+	padding: 0px;
+}
+
+.stateFieldset {
+	margin: 0px 0px 10px 10px;
+	*margin: 0px 0px 0px 10px;
+}
+
+.emailListLabel {
+	clear: both; 
+	margin: 10px 0px 5px 0px;
+}
+
+.postalListLabel {
+	clear: both; 
+	margin: 0px 0px 10px 0px;
+}
+
+.zipCodeInput {
+	width: 80px;
+}
+
+#secondColumn {
+	float: left; 
+	width: 51%;
+	background-color: #F6F4F2;
+	padding: 10px;
+	color: #8B7C6B;
+	margin: 0px 0px 15px 0px;
+}
+
+.secondArticlePosition {
+	margin: 30px 0px 0px 0px;
+}
+
+.highlightField {
+	background-color: #F6F4F2;
+	width: 230px;
+	padding: 5px;
+	display: block;
+	margin: 0px 0px 10px 0px;
+}
+
+.highlightFieldBorder {
+	border: solid 1px #FFFFFF; 
+	padding: 5px;
+	overflow: hidden;
+}
+
+.scheduleFieldPosition {
+	float: left;
+	margin: 0px 15px;
+}
+
+.siteMapColumn {
+	float: left;
+	margin: 0px 15px 0px 0px;
+}
+
+/*Start Navigation Styles*/
+
+.divNav, #nav {
+	height: 20px;
+	width: 100%;
+	display: block;
+}
+
+
+.divNav {
+	margin: 0px;
+	padding: 0px;
+	width: 644px;
+	background: #FFFFFF url(../images/navigation.gif) no-repeat;
+}
+
+#nav {
+	position: relative;
+	top: 0px;
+	background: #FFFFFF url(../images/navTile.gif) repeat-x top left;
+}
+
+#nav li ul, #nav li ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+#nav a {
+	text-decoration: none;
+}
+
+#nav li { /*float the main list items*/
+	margin: 0px;
+	float: left;
+	display: block;
+}
+
+#nav li ul {
+	display: none;
+}
+
+#nav li.off ul, #nav li.on ul  { /*put the subnav below*/
+	position: absolute;
+	*top: 20px;
+	left: -5px;
+	padding-top: 0px;
+	background-color: #D1C8BE;
+	height: 30px;
+	width: 1500px;
+}
+
+#nav li.on ul {
+	background-color: #D1C8BE;
+}
+
+#nav li.on:hover ul, #nav li.over ul { /*for ie*/
+	background-color: #D1C8BE;
+}
+
+#nav li a {
+	color: #FFFFFF;
+	font-weight: bold;
+	display: block;
+	padding: 0px;
+}
+
+#nav li.on a {
+	color: #FFFFFF;
+}
+
+#nav li.on ul a, #nav li.off ul a {
+	border: 0px;
+	float: left; /*ie doesn't inherit the float*/
+	color: #FFFFFF;
+	width: auto;
+	margin-right: 15px;
+}
+
+#nav li.on:hover ul a, #nav li.over ul li a { /*for ie - the specificity is necessary*/
+	background: none;
+}
+
+#nav li.on ul {
+	display: block;
+}
+
+#nav li.off:hover ul, #nav li.over ul {
+	display: block;
+	z-index: 99;
+}
+
+#nav li.off a:hover, #nav li.on a:hover, #nav li.over a:hover {
+	color: #CC3300;
+}
+
+/*do the image replacement*/
+#panel1nav a, #panel2nav a, #panel3nav a, #panel4nav a, #panel5nav a, #panel6nav a {
+	display: block;
+	position: relative;
+	width: 644px;
+	height: 20px;
+	background: url(../images/navigation.gif) no-repeat; /*contains all hover states*/
+}
+
+/*first, put the initial states in place*/
+#panel1nav a {
+	background-position: 0 0;
+	width: 40px;
+}
+#panel2nav a {
+	background-position: -40px 0;
+	width: 130px;
+}
+#panel3nav a {
+	background-position: -170px 0;
+	width: 107px;
+}
+#panel4nav a {
+	background-position: -277px 0;
+	width: 117px;
+}
+
+#panel5nav a {
+	background-position: -394px 0;
+	width: 104px;
+}
+
+#panel6nav a {
+	background-position: -498px 0;
+	width: 59px;
+}
+
+/*subnav formatting*/
+#nav li.off ul a, #nav li.on ul a {
+	color: #993300;
+	background: none;
+	font-size: 90%;
+	font-weight: bold;
+	padding: 6px 0px 0px 0px;
+}
+
+/*Start Footer Styles*/
+
+#footerContainer {
+	clear: both;
+	overflow: hidden;
+	padding: 15px;
+	background: #E7E3E1 url(../images/footerGradient.gif) repeat top left;
+}
+
+.footerCurvesBottom, .footerCurvesTop {
+	display: block;
+}
+
+.footerCurvesTop {
+	padding: 10px 0px 0px 0px;
+}
+
+#footerColumnA {
+	float: left; 
+	width: 35%;
+}
+
+#footerColumnB {
+	float: left; 
+	padding: 0px 20px; 
+	width: 25%; 
+	border: solid #C7CACA; 
+	border-width: 0px 1px 0px 1px;
+}
+
+#footerColumnC {
+	float: right; 
+	width: 30%;
+}
+
+#siteCredits {
+	font-size: 90%;
+	margin: 10px 0px 10px 0px;
+	text-align: center;
+}
+
+.floatLeft {
+	float: left; 
+}
+
+.floatRight {
+	float: right; 
+}
+
+.clear {
+	clear: both; 
+}
+
+.displayNone {
+	display: none; 
+}
+
+.insetPhotoMargin {
+	margin: 0px 10px 10px 0px; 
+}
+
+.rssFeedsMargin {
+	margin: 15px 0px 0px 0px; 
+}
