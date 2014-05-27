@@ -9,29 +9,26 @@
        		<li><img src="<?php echo $images ?>spacer.gif" height="1" width="350" alt="" border="0" /></li>
        		<li><a href="<?php echo $link ?>youthEducation/nursery.php">Nursery</a></li>
 			<li><a href="<?php echo $link ?>youthEducation/scholarships.php">Scholarships</a></li>
-			<!--li><a href="<?php echo $link ?>youthEducation/confirmation.php">Junior High &amp; Confirmation</a></li-->
 		</ul>
 	</li>
-	<!--<li id="panel6nav" class="off" title="Articles"><a href="<?php echo $link ?>articles/pcusaFeeds.php"></a></li>-->
 </ul>
 <?php
-//randomize the array of 6 banners
-$banner = array("rhines-wedding.jpg", 
-				"west-granville-bell-choir.jpg",
-				"west-granville-benton-harbor.jpg",
-				"west-granville-boy-scouts.jpg",
-				"west-granville-cookout.jpg",
-				"west-granville-kids.jpg",
-				"west-granville-golf-outing.jpg");
 
-//assign random banner to variable "$rand_banner"
-$rand_banner = array_rand($banner, 6);
-$bannerFinal = $banner[$rand_banner[0]];
+$banner = array();
+	$banner[] = "rhines-wedding.jpg";
+	$banner[] = "west-granville-bell-choir.jpg";
+	$banner[] = "west-granville-benton-harbor.jpg";
+	$banner[] = "west-granville-boy-scouts.jpg";
+	$banner[] = "west-granville-cookout.jpg";
+	$banner[] = "west-granville-kids.jpg";
+	$banner[] = "west-granville-golf-outing.jpg";
+shuffle($banner);
+
 switch ($title) {
 	case "Home":
 ?>
 	<div id="homeHeaderContainer">
-		<img src="<?php echo $images ?>homeheaderImages/<?php echo $bannerFinal ?>" class="floatLeft" width="770" height="170" border="0" alt="We are West Granville." /><img src="<?php echo $images ?>homeheaderImages/churchHeader.jpg" class="floatLeft" width="224" height="170" border="0" alt="West Granville Presbyterian Church" />
+		<img src="<?php echo $images ?>homeheaderImages/<?php echo $banner[0] ?>" class="floatLeft" width="770" height="170" border="0" alt="We are West Granville." /><img src="<?php echo $images ?>homeheaderImages/churchHeader.jpg" class="floatLeft" width="224" height="170" border="0" alt="West Granville Presbyterian Church" />
 	</div>
 <?php
 	break;

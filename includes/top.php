@@ -1,21 +1,30 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<!DOCTYPE html> 
 <html>
 
 <?php
 
-$url = $_SERVER['SERVER_NAME'];
-//echo $url
+$url = "";
+$link = "";
+$images = "";
+
+
+$url = $_SERVER["SERVER_NAME"];
 
 switch ($url) {
-	case "wgpc:8080":
-		$link = "http://wgpc:8080/";
+	case "wgpc":
+		if(isset($link)) {
+			$link = "http://wgpc:8080/";
+		}
 	break;
 	
 	default:
-		$link = "http://www.westgranville.org/";
+		if(isset($link)) {
+			$link = "http://www.westgranville.org/";
+		}
 }
 
 $images = $link."images/";
+
 
 //This php variable looks at the current string and assigns the directory folder name to it
 $file = dirname ($_SERVER['PHP_SELF']); // $file is set to "/etc"

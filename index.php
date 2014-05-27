@@ -14,7 +14,7 @@
 <div class="highlightField scheduleFieldPosition">
 	<div class="highlightFieldBorder">
 		<dl>
-			<?php 
+			<?php
 				$text1 = strftime('%b%d%Y', $sunday1);
 				$text2 = strftime('%b%d%Y', $sunday2);
 				$text3 = strftime('%b%d%Y', $sunday3);
@@ -41,7 +41,7 @@
 				<p class="worshipDateContainer">
 					<span class="worshipDate"><?php print strftime('%d', $sunday3);?></span>
 					<span class="worshipMonth"><?php print strftime('%b', $sunday3);?></span>
-					10:30
+					9:30
 				</p>
 				<p class="worshipDateDetails"><?php require ("text/".$text3.".php"); ?></p>
 			</dd>
@@ -49,7 +49,7 @@
 				<p class="worshipDateContainer">
 					<span class="worshipDate"><?php print strftime('%d', $sunday4);?></span>
 					<span class="worshipMonth"><?php print strftime('%b', $sunday4);?></span>
-					10:30
+					9:30
 				</p>
 				<p class="worshipDateDetails"><?php require ("text/".$text4.".php"); ?></p>
 			</dd>

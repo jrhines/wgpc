@@ -1,0 +1,1 @@
+22nd Sunday in Ordinary Time<br />
