@@ -12,6 +12,7 @@
 	<p>West Granville Presbyterian Church was founded in April 1860 as "Die erste Presbyterian Kirche." In the wake of  the threatening Civil War, the 26 German Calvinists who formed the initial membership forged ahead to build the Cream City brick building which houses the congregation to this day. In its infancy, the congregation showed a strong commitment to its mission, providing assistance to newly freed slaves through the Freedman's Board.</p>
 	<p>Originally all services were offered in German, and it was not until 1913 that English was adopted as the only language used in worship and Sunday school. The church was a struggling small congregation and often shared a minister with another church or at times had no minister at all. It is noteworthy, however, that the congregation never hesitated in its intention to be part of the Greater Milwaukee religious community. Special collections for the relief of human suffering and community needs were taken regularly, and giving was generous.</p>
 	<p>We are moving into the 21st century with a firm mission to provide Christian witness to our neighborhood and the world.</p>
+	<iframe width="420" height="236" src="https://www.youtube.com/embed/zU6waBsnMgs?rel=0&amp;showinfo=0" allowfullscreen></iframe>
 </div>
 <div id="secondColumn">
 	<h2>Timeline of Key Church Events</h2>
